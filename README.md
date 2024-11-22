@@ -35,7 +35,7 @@ This guide will walk you through creating a chatbot using **Google AI Studio's G
 
 ## Step 3: Build the Backend
 
-1. Paste the copied code into a file named `backend.py`.
+1. Paste the copied code into a file named `backend.py` or `main.py`
 2. Modify the code as follows:
    - Replace the `os.env` API key line with your actual API key:
      ```python
