@@ -1,5 +1,5 @@
 # How to Create a Custom Chatbot Using Google AI Studio and Streamlit
-Reference backend [youtube video part1](https://www.youtube.com/watch?v=SxUDPM0mGDY&t=2s).
+Reference backend [youtube video part1](https://www.youtube.com/watch?v=SxUDPM0mGDY&t=2s).<br>
  frontend [youtube video part2](https://www.youtube.com/watch?v=j4Avy7UzPGw).
 
 
