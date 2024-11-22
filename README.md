@@ -94,7 +94,7 @@ streamlit run frontend.py
 
 ## If your file is in a subdirectory, navigate to it and run:
 <mark>
-cd src,br>
+cd src<br>
 streamlit run main.py </mark>
 ---
 
