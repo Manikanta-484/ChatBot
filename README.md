@@ -1,4 +1,8 @@
 # How to Create a Custom Chatbot Using Google AI Studio and Streamlit
+Reference backend [youtube video part1](https://www.youtube.com/watch?v=SxUDPM0mGDY&t=2s).
+ frontend [youtube video part2](https://www.youtube.com/watch?v=j4Avy7UzPGw).
+
+
 
 This guide will walk you through creating a chatbot using **Google AI Studio's Gemini API** and integrating it with **Streamlit** for a user-friendly interface.
 
@@ -75,7 +79,7 @@ def response_generator(prompt):
 ## Update the assistant message container:
 
 # Display assistant response in chat message container
-with st.chat_message("assistant"):
+with st.chat_message("assistant"):<br>
     response = st.write_stream(response_generator(<mark>prompt)</mark>)
     
 Step 6: Set Up the Environment
@@ -96,6 +100,7 @@ streamlit run frontend.py
 <mark>
 cd src<br>
 streamlit run main.py </mark>
+
 ---
 
 Congratulations! Your chatbot is now ready to use. You can interact with it via the Streamlit interface.
